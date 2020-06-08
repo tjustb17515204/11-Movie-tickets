@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .td{width:300px;overflow:hidden} 
+        table{
+            line-height: 40px;
+        }
+      h1{
+          font-family: "仿宋";
+           font-size: 60px;
+           text-align: center;
+      }h2{
+        text-align: center;
+      }
+        </style>
+</head>
+<body background="../img/tupian2.jpg"style="background-repeat:no-repeat;
+background-size:100%100%; background-attachment:fixed;">
+    <h1>电影院售票系统</h1>
+    <h2>登陆页面</h2>
+  <table  align="center" border="2">
+    <form>
+        <tr>
+            <td class="td">用户名：</td>
+            <td class="td"><input name="loginname" type="text"maxlength="12"required
+            pattern="^[a-zA-Z][a-zA-Z0-9_]{4,11}$"autofocus/></td>
+        </tr>
+        <tr>
+            <td class="td">密码：</td>
+            <td class="td"><input name="pass" type="password"maxlength="12"required
+                pattern="^[a-zA-Z]\w{5,17}$"/></td>
+        </tr>
+        <tr>
+            <td class="td">确认密码：</td>
+            <td class="td"><input name="pass" type="password"maxlength="12"required
+                pattern="^[a-zA-Z]\w{5,17}$"/></td>
+        </tr>
+        <tr>
+            <td class="td">选择登陆的模式：</td>
+            <td class="td"><input type="radio"name="s "/>用户<input type="radio"name="s "/>业务员<input type="radio"name="s "/>财务员</td>
+        </tr>
+    </form>
+  </table>
+    <p  align="center"><a href="01-4.html">确认登陆</a>&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="重置"/>&nbsp;&nbsp;&nbsp;&nbsp;<a href="01-1.html">前往注册</a></p>
+</body>
+</html>
